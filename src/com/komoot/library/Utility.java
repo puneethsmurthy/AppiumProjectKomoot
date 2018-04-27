@@ -16,10 +16,11 @@ import org.testng.annotations.BeforeMethod;
 
 import io.appium.java_client.android.AndroidDriver;
 
+
 public class Utility extends Config{
 	
 	public AndroidDriver driver;
-
+	
 	@BeforeMethod
 	public void setUp() throws MalformedURLException{
 		
@@ -35,6 +36,7 @@ public class Utility extends Config{
 		
 		driver.quit();
 	}
+	
 	
 	public void validateLogin(String name, String validEmail, String password, String expectedWelcomeMessage){
 		

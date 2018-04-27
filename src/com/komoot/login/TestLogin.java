@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 import com.komoot.library.Config;
 import com.komoot.library.Utility;
 
-import io.appium.java_client.android.AndroidDriver;
-
 public class TestLogin extends Utility {
 
 	private String name = "Puneeth";

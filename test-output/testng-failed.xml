@@ -5,9 +5,13 @@
     <classes>
       <class name="com.komoot.login.TestLogin">
         <methods>
-          <include name="validateSignup"/>
           <include name="tearDown"/>
+          <include name="testForMandatoryFieldName"/>
+          <include name="testWithInvalidEmailId"/>
+          <include name="validateSignup"/>
           <include name="setUp"/>
+          <include name="testForMandatoryFieldEmail"/>
+          <include name="testForMandatoryFieldPassword"/>
         </methods>
       </class> <!-- com.komoot.login.TestLogin -->
     </classes>
