@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Entered Invalid EmailID Test=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Entered validateErrorMessageInvalidEmailField Method Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Exited validateErrorMessageInvalidEmailField Method Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Exited Invalid EmailID Test=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Entered Mandatory Field: Name Test=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Entered validateErrorMessageNameField Method Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Exited validateErrorMessageNameField Method Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Exited Mandatory Field: Name Test=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Entered Mandatory Field: Email Test=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Entered validateErrorMessageEmailField Method Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Exited validateErrorMessageEmailField Method Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Exited Mandatory Field: Email Test=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Entered Mandatory Field: Password Test=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Entered validateErrorMessagePasswordField Method Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Exited validateErrorMessagePasswordField Method Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Exited Mandatory Field: Password Test=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Entered Sign Up Test=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Entered validateLogin Method Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Exited validateLogin Method Successfully=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Exited Sign Up Test=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="150356" started-at="2018-04-27T09:50:47Z" finished-at="2018-04-27T09:53:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="150356" started-at="2018-04-27T09:50:47Z" finished-at="2018-04-27T09:53:17Z">
+      <class name="com.komoot.login.TestLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="setUp" is-config="true" duration-ms="5593" started-at="2018-04-27T11:50:47Z" finished-at="2018-04-27T11:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWithInvalidEmailId()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="testWithInvalidEmailId" duration-ms="32791" started-at="2018-04-27T11:50:53Z" description="Verify validation for Invalid Email ID" finished-at="2018-04-27T11:51:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Entered Invalid EmailID Test=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Entered validateErrorMessageInvalidEmailField Method Successfully=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Exited validateErrorMessageInvalidEmailField Method Successfully=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Exited Invalid EmailID Test=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testWithInvalidEmailId -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="tearDown" is-config="true" duration-ms="444" started-at="2018-04-27T11:51:26Z" finished-at="2018-04-27T11:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="setUp" is-config="true" duration-ms="5098" started-at="2018-04-27T11:51:26Z" finished-at="2018-04-27T11:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testForMandatoryFieldName()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="testForMandatoryFieldName" duration-ms="15466" started-at="2018-04-27T11:51:31Z" description="Verify Mandatory field validation for Name field" finished-at="2018-04-27T11:51:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Entered Mandatory Field: Name Test=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Entered validateErrorMessageNameField Method Successfully=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Exited validateErrorMessageNameField Method Successfully=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Exited Mandatory Field: Name Test=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForMandatoryFieldName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="tearDown" is-config="true" duration-ms="529" started-at="2018-04-27T11:51:47Z" finished-at="2018-04-27T11:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="setUp" is-config="true" duration-ms="5055" started-at="2018-04-27T11:51:47Z" finished-at="2018-04-27T11:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testForMandatoryFieldEmail()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="testForMandatoryFieldEmail" duration-ms="21926" started-at="2018-04-27T11:51:52Z" description="Verify Mandatory field validation for Email field" finished-at="2018-04-27T11:52:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Entered Mandatory Field: Email Test=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Entered validateErrorMessageEmailField Method Successfully=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Exited validateErrorMessageEmailField Method Successfully=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Exited Mandatory Field: Email Test=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForMandatoryFieldEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="tearDown" is-config="true" duration-ms="480" started-at="2018-04-27T11:52:14Z" finished-at="2018-04-27T11:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="setUp" is-config="true" duration-ms="5026" started-at="2018-04-27T11:52:15Z" finished-at="2018-04-27T11:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testForMandatoryFieldPassword()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="testForMandatoryFieldPassword" duration-ms="27316" started-at="2018-04-27T11:52:20Z" description="Verify Mandatory field validation for Password field" finished-at="2018-04-27T11:52:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Entered Mandatory Field: Password Test=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Entered validateErrorMessagePasswordField Method Successfully=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Exited validateErrorMessagePasswordField Method Successfully=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Exited Mandatory Field: Password Test=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForMandatoryFieldPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="tearDown" is-config="true" duration-ms="403" started-at="2018-04-27T11:52:47Z" finished-at="2018-04-27T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="setUp" is-config="true" duration-ms="5030" started-at="2018-04-27T11:52:47Z" finished-at="2018-04-27T11:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSignup()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="validateSignup" duration-ms="24805" started-at="2018-04-27T11:52:52Z" description="Verify Sign up functionality by providing valid values" finished-at="2018-04-27T11:53:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Entered Sign Up Test=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Entered validateLogin Method Successfully=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Exited validateLogin Method Successfully=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Exited Sign Up Test=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSignup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.komoot.login.TestLogin@2b98378d]" name="tearDown" is-config="true" duration-ms="374" started-at="2018-04-27T11:53:17Z" finished-at="2018-04-27T11:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.komoot.login.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
